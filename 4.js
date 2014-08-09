@@ -1,4 +1,8 @@
-function min(a,b){
-	return a < b ? a : b; 
+function countBs(a){
+	var b = a.length,c = 0;
+	for(var e = 0; e < b; e++){
+		if( a.substring(e, e+1) == "B"){c++;};
+	}
+	return c;
 }
-min(12, 3);
+console.log(countBs("BBC"));
