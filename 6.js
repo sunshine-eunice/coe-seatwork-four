@@ -8,4 +8,4 @@ var reverse = function(str) {
     return arr.join('');
 }
 
-reverse('lorem ipsum dolor');
+reverse('Bahay Kubo');
