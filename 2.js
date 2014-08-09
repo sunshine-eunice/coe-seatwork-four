@@ -1,15 +1,18 @@
-for(var i=1; i<=100; i++)
-{
-if(i%15===0)
-{ console.log("Computer Engineering");
-}
-else if(i%3===0)
-{ console.log("Computer");
-}
-else if(i % 5===0)
-{ console.log("Engineering");
-}
-else{ console.log(i);
-}
-}
-// This is problem 2
+var coe = function(num){
+
+		for (var count = 0 ; count<=num; count++){
+			if ((count%5) ==0 && (count%3)==0){
+				console.log("ComputerEngineering");
+			}
+			else if ((count%3)==0){
+				console.log("Computer");
+			}
+			else if ((count%5)==0){
+				console.log("Engineering");
+			}
+			else {
+				console.log(count);
+			}
+		}
+	}	
+coe(100);
